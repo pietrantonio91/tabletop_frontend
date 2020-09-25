@@ -13,7 +13,7 @@ const axios = require('axios');
 Vue.config.productionTip = false;
 
 Vue.prototype.$http = axios;
-Vue.prototype.$apiUrl = 'http://localhost:8000/api';
+Vue.prototype.$apiUrl = 'https://tabletop-api.alessandropietrantonio.it/api';
 
 import _ from 'lodash';    
 Object.defineProperty(Vue.prototype, '$_', { value: _ });

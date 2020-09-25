@@ -1,6 +1,6 @@
 <template>
     <div>
-        <b-navbar type="light" variant="light">
+        <b-navbar toggleable="lg" type="light" variant="light">
             <b-navbar-nav>
 
                 <b-link :to="{name: 'home'}"><b-navbar-brand>Progettazione Giochi da Tavolo</b-navbar-brand></b-link>

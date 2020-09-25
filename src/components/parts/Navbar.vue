@@ -3,7 +3,7 @@
         <b-navbar type="light" variant="light">
             <b-navbar-nav>
 
-                <b-link :to="{name: 'home'}"><b-navbar-brand>Tabletop Game Design</b-navbar-brand></b-link>
+                <b-link :to="{name: 'home'}"><b-navbar-brand>Progettazione Giochi da Tavolo</b-navbar-brand></b-link>
 
                 <b-nav-item :to="{name: 'patterns'}" :class="($route.path.includes('patterns') ? 'active' : '')">Patterns</b-nav-item>
 

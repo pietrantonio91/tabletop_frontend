@@ -9,7 +9,7 @@
 						Home
 					</b-breadcrumb-item>
 					<b-breadcrumb-item
-						v-if="$route.path.split('/')[1] !== undefined" 
+						v-if="$route.path.split('/')[1] !== undefined && $route.name != 'home'" 
 						:to="{name: $route.path.split('/')[1]}">
 						{{ $route.meta.breadcrumb }}
 					</b-breadcrumb-item>
@@ -17,16 +17,19 @@
 			</div>
             <router-view></router-view>
         </div>
+        <my-footer></my-footer>
     </div>
 </template>
 
 <script>
 import Navbar from "./components/parts/Navbar";
+import MyFooter from "./components/parts/MyFooter";
 
 export default {
     name: "App",
     components: {
         Navbar,
+        MyFooter
     },
 };
 </script>

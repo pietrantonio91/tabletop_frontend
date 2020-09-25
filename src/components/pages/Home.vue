@@ -13,14 +13,6 @@
                 </p>
             </div>
         </div>
-        <div class="col-10 offset-1 bg-white mt-5 p-5">
-            <h3 class="h1">
-                Come funziona?
-            </h3>
-            <div class="mt-5">
-
-            </div>
-        </div>
     </div>
 </template>
 

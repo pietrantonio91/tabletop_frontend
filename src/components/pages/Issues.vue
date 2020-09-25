@@ -1,11 +1,9 @@
 <template>
-    <div class="row">
-        <div class="col-10 offset-1 bg-white p-5">
-            <h1>
-                Lista delle criticità
-            </h1>
-            <issues-table :items="issues"></issues-table>
-        </div>
+    <div>
+        <h1>
+            Lista delle criticità
+        </h1>
+        <issues-table :items="issues"></issues-table>
     </div>
 </template>
 

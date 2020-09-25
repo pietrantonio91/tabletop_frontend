@@ -15,7 +15,11 @@
 					</b-breadcrumb-item>
 				</b-breadcrumb>
 			</div>
-            <router-view></router-view>
+            <div class="row">
+                <div class="bg-white col-lg-10 col-md-12 offset-lg-1 p-5">
+                    <router-view></router-view>
+                </div>
+            </div>
         </div>
         <my-footer></my-footer>
     </div>

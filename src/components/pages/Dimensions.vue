@@ -1,11 +1,9 @@
 <template>
-    <div class="row">
-        <div class="col-10 offset-1 bg-white p-5">
-            <h1>
-                Dimensioni
-            </h1>
-            <dimensions-table :items="dimensions"></dimensions-table>
-        </div>
+    <div>
+        <h1>
+            Dimensioni
+        </h1>
+        <dimensions-table :items="dimensions"></dimensions-table>
     </div>
 </template>
 

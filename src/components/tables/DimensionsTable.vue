@@ -19,7 +19,7 @@
                 </b-input-group>
             </b-form-group>
         </div>
-        <div class="mt-2">
+        <div class="mt-2 table-responsive">
             <b-table 
                 hover 
                 :items="items" 

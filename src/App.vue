@@ -31,6 +31,9 @@ import MyFooter from "./components/parts/MyFooter";
 
 export default {
     name: "App",
+    created () {
+        document.title = "Progettazione Giochi da tavolo";
+    },
     components: {
         Navbar,
         MyFooter
